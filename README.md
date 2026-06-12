@@ -13,6 +13,11 @@ A production-pattern Retrieval-Augmented Generation system for enterprise docume
 
 **Stack:** Python · LangChain · ChromaDB · Anthropic Claude API
 
+### [ADK Vendor Snapshot](https://github.com/snehhilgupta/adk-vendor-snapshot)
+A multi-agent vendor research system built on Google's Agent Development Kit — researcher, funding-verifier, and formatter agents composed with AgentTool and SequentialAgent. Built in documented stages, each capturing real failure modes: hallucination probes against a fabricated vendor, search grounding that made fabrication worse, and Gemini API tool-mode constraints with their workarounds.
+
+**Stack:** Python · Google ADK · Gemini 2.5 Flash · Pydantic
+
 ### Enterprise Agent Workflow *(Coming Soon)*
 A LangGraph-based multi-agent system where specialized agents coordinate to answer complex enterprise queries. Based on my evaluation of 6 agentic platforms at CBRE.
 
